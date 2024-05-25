@@ -15,6 +15,8 @@ import {
   SiRedis,
   SiNextdotjs,
   SiPostgresql,
+    SiSymfony,
+    SiLaravel
 } from "react-icons/si";
 
 import { MdJavascript,MdHttp } from "react-icons/md";
@@ -27,6 +29,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiSymfony />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiLaravel />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <MdJavascript />
       </Col>
@@ -52,7 +60,6 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-
           <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
